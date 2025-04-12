@@ -1,0 +1,84 @@
+body{
+  margin: 0;
+  background-color: #232729;
+  color: #fed2cd;
+  
+}
+.borders{
+  border: 1px solid red;
+}
+.app-main{
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.app-main>h1{
+  font-size: 3em;
+  position: absolute;
+  top: 10%;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.count-box{
+  border: 2px solid #fed2cd;
+  width: 30%;
+  height: 50%;
+  text-align: center;
+  border-radius: 24px;
+  box-shadow: +0.5em 0 0.5em #fed2cd, -0.5em 0 0.5em #fed2cd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.count-box>span{
+  position: absolute;
+  top: 29%;
+  right: 38%;
+  cursor: pointer;
+  padding: 5px 10px;
+  text-align: center;
+}
+.count-box>span:hover{
+  background-color: #fed2cd;
+  color: #232729;
+  font-weight: bold;
+  box-shadow: +0.1em 0 0.1em #fed2cd, -0.1em 0 0.1em #fed2cd;
+  border-radius: 12px;
+  scale: 1.1;
+  transition: 0.3s;
+}
+.count-box>h1{
+  font-size: 8em;
+}
+.btn-area{
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.btn-area>button{
+  width: 10%;
+  padding: 10px;
+  font-size: 1.5em;
+  border: 1px solid #fed2cd;
+  background-color: #232729;
+  border-radius: 24px;
+  box-shadow: +0.1em 0 0.1em #fed2cd, -0.1em 0 0.1em #fed2cd;
+  color: #fed2cd;
+  cursor: pointer;
+}
+.btn-area>button:hover{
+  background-color: #fed2cd;
+  box-shadow: +0.1em 0 0.1em #8e0026, -0.1em 0 0.1em #8e0026;
+  color: #8e0026;
+  transition: 0.5s;
+}

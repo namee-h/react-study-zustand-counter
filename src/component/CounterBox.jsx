@@ -6,7 +6,9 @@ const CounterBox = () => {
   return (
     <div className='main'>
         <div className='count-box'>
-            <span onClick={reset}>초기화</span>
+            <div className='reset-btn'>
+                <span onClick={reset}>초기화</span>
+            </div>
             <h1>
                 {count}
             </h1>
